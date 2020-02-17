@@ -39,7 +39,7 @@ class TechList extends Component{
             key={tech} 
             tech={tech} 
             onDelete={()=>this.handleDelete(tech)}
-          />
+          />          
         ))} 
         </ul>
         <input 
