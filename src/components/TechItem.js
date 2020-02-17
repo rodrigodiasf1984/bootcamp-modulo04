@@ -11,7 +11,7 @@ function TechItem({tech, onDelete}){
   )
 }
 // Caso este componente seja utilizado sem os as propriedades  , o mesmo usa as defaultProps
-TechItem,defaultProps = {
+TechItem.defaultProps = {
   tech:'Oculto',
 }
 
