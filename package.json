@@ -1,0 +1,29 @@
+{
+  "name": "Modulo04",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rodrigodiasf1984/bootcamp-modulo04.git",
+  "author": "Rodrigo Dias de Figueiredo <rodrigodiasf@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "wepack": "^0.0.1",
+    "wepack-cli": "^0.0.1-security"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
